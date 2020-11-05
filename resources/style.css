@@ -1,0 +1,136 @@
+#header-container   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo   {
+    display: flex;
+
+}
+.logo p {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: mediumaquamarine;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+   
+}
+nav a   {
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+h2  {
+    40px;
+}
+
+.content-container  {
+    display: flex;
+    
+
+    width: auto;
+}
+
+.big-column {
+    width: 630px;
+    padding-right: 5px;
+
+}
+.medium-column  {
+    width: 300px;
+    
+}
+.small-column{
+    width: 240px;
+   
+    text-align: center;
+}
+.large-bottom   {
+   
+    display: inline-flex;
+}
+
+.tips span {
+    display: flex;   
+    background-color: WhiteSmoke;
+    font-size: 12px;
+    color: dimgray;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    padding: 5px;
+} 
+.bites h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p   {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+
+.one  {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-story-main.png");
+    height: 300px;   
+}
+.two    {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-story-2.png");
+    height: 300px;
+}
+.three  {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-story-3.png");
+    height: 300px;
+}
+.cat  {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-story-1.png");
+    height: 300px;
+}
+
+.fish span , .cat span{
+    font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+ 
+  text-align: center; 
+} 
+
+.fish , .cat{
+     display: flex;
+}
+
+/*footer*/
+footer  {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumaquamarine;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana;
+    margin: auto;
+    font-size: 12px;
+    padding: 10px;
+}
+.footer-container1  {
+    display: flex;
+}
+.times  {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-right: 15px;
+}
+.copyright p {
+    font-size: 12px;
+}
+.footer-container2 a    {
+    color: black;
+    padding: 10px;
+}
